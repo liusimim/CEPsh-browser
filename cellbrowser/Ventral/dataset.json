@@ -1,0 +1,516 @@
+{
+  "fileVersions": {
+    "inMeta": {
+      "fname": "/lustre/fs4/brc/scratch/wwang05/ShahamLab/simin_cellbrowser/test/CEPshV.metadata.tsv",
+      "md5": "d84592b9ba",
+      "size": 2193972,
+      "mtime": "2025-09-18 19:23:52"
+    },
+    "outMeta": {
+      "fname": "../simin_html/sample/meta.tsv",
+      "md5": "d84592b9ba",
+      "size": 2193972,
+      "mtime": "2025-09-18 19:26:07"
+    },
+    "inMatrix": {
+      "fname": "/lustre/fs4/brc/scratch/wwang05/ShahamLab/simin_cellbrowser/test/CEPshV.counts.tsv.gz",
+      "md5": "d44580c212",
+      "size": 55389599,
+      "mtime": "2025-09-18 19:23:52"
+    },
+    "outMatrix": {
+      "fname": "../simin_html/sample/exprMatrix.tsv.gz",
+      "md5": "d44580c212",
+      "size": 55389599,
+      "mtime": "2025-09-18 19:26:09"
+    },
+    "conf": {
+      "fname": "/lustre/fs4/brc/scratch/wwang05/ShahamLab/simin_cellbrowser/test/cellbrowser.conf",
+      "md5": "9ec8de6525",
+      "size": 9357,
+      "mtime": "2025-09-18 19:25:41"
+    }
+  },
+  "sampleCount": 39964,
+  "matrixWasFiltered": false,
+  "metaFields": [
+    {
+      "name": "Cell",
+      "label": "Cell",
+      "type": "uniqueString",
+      "maxSize": 34,
+      "diffValCount": 39964,
+      "md5": "febca10eaf"
+    },
+    {
+      "name": "seurat_clusters",
+      "label": "seurat_clusters",
+      "type": "enum",
+      "valCounts": [
+        [
+          "0",
+          2698
+        ],
+        [
+          "1",
+          2602
+        ],
+        [
+          "2",
+          2452
+        ],
+        [
+          "3",
+          2344
+        ],
+        [
+          "4",
+          2114
+        ],
+        [
+          "5",
+          1985
+        ],
+        [
+          "6",
+          1963
+        ],
+        [
+          "7",
+          1860
+        ],
+        [
+          "8",
+          1762
+        ],
+        [
+          "9",
+          1760
+        ],
+        [
+          "10",
+          1593
+        ],
+        [
+          "11",
+          1479
+        ],
+        [
+          "12",
+          1400
+        ],
+        [
+          "13",
+          1393
+        ],
+        [
+          "14",
+          1367
+        ],
+        [
+          "15",
+          1355
+        ],
+        [
+          "16",
+          1144
+        ],
+        [
+          "17",
+          1141
+        ],
+        [
+          "18",
+          1138
+        ],
+        [
+          "19",
+          1044
+        ],
+        [
+          "20",
+          992
+        ],
+        [
+          "21",
+          835
+        ],
+        [
+          "22",
+          760
+        ],
+        [
+          "23",
+          664
+        ],
+        [
+          "24",
+          565
+        ],
+        [
+          "25",
+          548
+        ],
+        [
+          "26",
+          520
+        ],
+        [
+          "27",
+          486
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 28,
+      "md5": "e67d60ee40"
+    },
+    {
+      "name": "Cell_types",
+      "label": "Cell_types",
+      "type": "enum",
+      "valCounts": [
+        [
+          "ABpxpaapaa",
+          3974
+        ],
+        [
+          "ABpxpaaapa",
+          3937
+        ],
+        [
+          "ABpxpaappp",
+          3845
+        ],
+        [
+          "ABpxpaaaaa",
+          3239
+        ],
+        [
+          "ABpxpaapap",
+          3162
+        ],
+        [
+          "ABpxpaappa",
+          2698
+        ],
+        [
+          "ABpxpaaapp",
+          2602
+        ],
+        [
+          "ABpxpaaaap",
+          1985
+        ],
+        [
+          "OLQV",
+          1963
+        ],
+        [
+          "SAAV",
+          1367
+        ],
+        [
+          "AWC",
+          1355
+        ],
+        [
+          "AMso",
+          1144
+        ],
+        [
+          "Excretory",
+          1141
+        ],
+        [
+          "AVB",
+          1138
+        ],
+        [
+          "RIV",
+          1044
+        ],
+        [
+          "DB1/3",
+          992
+        ],
+        [
+          "ASH",
+          835
+        ],
+        [
+          "AIM/CEPV/x",
+          760
+        ],
+        [
+          "x (CEMV in male)",
+          664
+        ],
+        [
+          "URYV",
+          565
+        ],
+        [
+          "RIB",
+          548
+        ],
+        [
+          "CEPshV",
+          520
+        ],
+        [
+          "URAV",
+          486
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 23,
+      "md5": "5af46c2a74"
+    },
+    {
+      "name": "sample",
+      "label": "sample",
+      "type": "enum",
+      "valCounts": [
+        [
+          "V 420 min",
+          10596
+        ],
+        [
+          "V 270 min rep1",
+          7391
+        ],
+        [
+          "V 330 min rep1",
+          6998
+        ],
+        [
+          "V 330 min rep2",
+          6800
+        ],
+        [
+          "V 240 min",
+          6382
+        ],
+        [
+          "V 270 min rep2",
+          1797
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 6,
+      "md5": "4aa0a0c8e3"
+    }
+  ],
+  "matrixArrType": "Uint32",
+  "labelField": "seurat_clusters",
+  "coords": [
+    {
+      "name": "coords_0",
+      "shortLabel": "UMAP on CEPshV",
+      "md5": "4d5c5ebfb5",
+      "minX": -13.3410501377474,
+      "maxX": 15.8989276988615,
+      "minY": -17.4807627129242,
+      "maxY": 12.794146306546,
+      "type": "Float32",
+      "textFname": "UMAP_on_CEPshV.coords.tsv.gz",
+      "labelMd5": "d41d8cd98f"
+    }
+  ],
+  "hasFiles": [
+    "datasetDesc"
+  ],
+  "topMarkers": {
+    "ABpxpaaaaa": [
+      "ceh-37",
+      "fkh-2",
+      "ngn-1",
+      "ces-1",
+      "hlh-16"
+    ],
+    "ABpxpaaaap": [
+      "ceh-27",
+      "ceh-6",
+      "irx-1",
+      "prdx-2",
+      "unc-130"
+    ],
+    "ABpxpaaapa": [
+      "pros-1",
+      "sox-2",
+      "vab-1",
+      "sem-2",
+      "C11E4.6"
+    ],
+    "ABpxpaaapp": [
+      "ceh-32",
+      "hmg-6",
+      "lin-32",
+      "ins-2",
+      "cyd-1"
+    ],
+    "ABpxpaapaa": [
+      "ceh-30",
+      "ngn-1",
+      "trt-1",
+      "unc-42",
+      "hlh-16"
+    ],
+    "ABpxpaapap": [
+      "sox-2",
+      "alr-1",
+      "T26C12.3",
+      "sfrp-1",
+      "ddr-2"
+    ],
+    "ABpxpaappa": [
+      "cog-1",
+      "arrd-1",
+      "ces-1",
+      "ins-2",
+      "C03C10.5"
+    ],
+    "ABpxpaappp": [
+      "rig-5",
+      "sfrp-1",
+      "ceh-45",
+      "lim-7",
+      "F43G6.4"
+    ],
+    "SAAV": [
+      "fkh-2",
+      "unc-42",
+      "lim-4",
+      "Y64G10A.7",
+      "mab-21"
+    ],
+    "AWC": [
+      "mks-5",
+      "fbxc-53",
+      "dma-1",
+      "zig-8",
+      "T01D3.3"
+    ],
+    "Excretory": [
+      "lgc-27",
+      "WBGene00023209",
+      "wrt-10",
+      "cutl-3",
+      "let-23"
+    ],
+    "DB1/3": [
+      "mig-1",
+      "unc-62",
+      "ceh-13",
+      "cdh-1",
+      "prkl-1"
+    ],
+    "URAV": [
+      "unc-86",
+      "agr-1",
+      "zig-8",
+      "cfi-1",
+      "F58H1.5"
+    ],
+    "CEPshV": [
+      "pros-1",
+      "zig-8",
+      "hot-6",
+      "wrk-1",
+      "nhr-25"
+    ],
+    "OLQV": [
+      "mec-12",
+      "ast-1",
+      "dyf-7",
+      "agr-1",
+      "F58D2.2"
+    ],
+    "URYV": [
+      "ceh-32",
+      "agr-1",
+      "unc-86",
+      "cnd-1",
+      "F19G12.3"
+    ],
+    "RIV": [
+      "efn-2",
+      "unc-42",
+      "lim-4",
+      "ast-1",
+      "ceh-30"
+    ],
+    "AVB": [
+      "fax-1",
+      "unc-42",
+      "lim-7",
+      "F54E4.3",
+      "ten-1"
+    ],
+    "AMso": [
+      "WBGene00023209",
+      "mua-3",
+      "alr-1",
+      "cutl-9",
+      "cutl-16"
+    ],
+    "x (CEMV in male)": [
+      "unc-86",
+      "kal-1",
+      "B0198.3",
+      "cdh-12",
+      "hil-7"
+    ],
+    "ASH": [
+      "dmd-5",
+      "lin-11",
+      "nphp-1",
+      "mksr-1",
+      "T01B10.5"
+    ],
+    "RIB": [
+      "egl-13",
+      "T01B10.5",
+      "cnd-1",
+      "arrd-1",
+      "T02E9.5"
+    ],
+    "AIM/CEPV/x": [
+      "ast-1",
+      "jbts-14",
+      "F48E3.9",
+      "dyf-7",
+      "nphp-1"
+    ]
+  },
+  "markers": [
+    {
+      "name": "markers_0",
+      "shortLabel": "Cluster-specific markers"
+    }
+  ],
+  "shortLabel": "CEPshV",
+  "priority": 10,
+  "tags": [
+    "10X"
+  ],
+  "clusterField": "seurat_clusters",
+  "showLabels": true,
+  "unit": "read count/UMI",
+  "body_parts": [
+    ""
+  ],
+  "organisms": [
+    ""
+  ],
+  "diseases": [
+    ""
+  ],
+  "projects": [
+    ""
+  ],
+  "name": "sample",
+  "firstBuildTime": "2025-09-18T15:28:00.383888",
+  "lastBuildTime": "2025-09-18T15:28:00.383918",
+  "md5": "03acf109bb"
+}

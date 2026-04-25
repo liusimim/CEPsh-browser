@@ -1,0 +1,30 @@
+{
+  "name": "CEPsh_DV",
+  "quickGenesFile": "quickGenes.tsv",
+  "priority": 10,
+  "tags": [
+    "10X"
+  ],
+  "shortLabel": "CEPsh_DV",
+  "exprMatrix": "counts_exprMatrix.tsv.gz",
+  "geneIdType": "symbol",
+  "meta": "meta.tsv",
+  "coords": [
+    {
+      "file": "/lustre/fs4/brc/scratch/wwang05/ShahamLab/simin_cellbrowser/CEPsh_DV_rev_a/umap.coords.tsv",
+      "shortLabel": "UMAP"
+    }
+  ],
+  "clusterField": "seurat_clusters",
+  "labelField": "seurat_clusters",
+  "markers": [
+    {
+      "file": "/lustre/fs4/brc/scratch/wwang05/ShahamLab/simin_cellbrowser/CEPsh_DV_rev_a/markers.tsv",
+      "shortLabel": "markers of clusters"
+    }
+  ],
+  "showLabels": true,
+  "radius": 5,
+  "alpha": 0.3,
+  "inDir": ""
+}

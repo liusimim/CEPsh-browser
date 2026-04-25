@@ -1,0 +1,7 @@
+{
+  "title": "CEPsh glia (Dorsal/Ventral)",
+  "abstract": "Convergent differentiation of CEPshD and CEPshV glia",
+  "methods": "10X Genomics",
+  "coordFiles": ["UMAP.coords.tsv.gz"],
+  "matrixFile": "exprMatrix.tsv.gz"
+}

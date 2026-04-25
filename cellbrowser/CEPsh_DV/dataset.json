@@ -1,0 +1,516 @@
+{
+  "fileVersions": {
+    "inMeta": {
+      "fname": "/lustre/fs4/brc/scratch/wwang05/ShahamLab/simin_cellbrowser/CEPsh_DV_rev_a/meta.tsv",
+      "md5": "32a62f1775",
+      "size": 704510,
+      "mtime": "2025-11-17 19:29:27"
+    },
+    "outMeta": {
+      "fname": "../CEPsh_DV_html/CEPsh_DV/meta.tsv",
+      "md5": "32a62f1775",
+      "size": 704510,
+      "mtime": "2025-11-17 19:45:43"
+    },
+    "inMatrix": {
+      "fname": "/lustre/fs4/brc/scratch/wwang05/ShahamLab/simin_cellbrowser/CEPsh_DV_rev_a/counts_exprMatrix.tsv.gz",
+      "md5": "a6ec9f97a3",
+      "size": 13161232,
+      "mtime": "2025-11-17 19:08:28"
+    },
+    "outMatrix": {
+      "fname": "../CEPsh_DV_html/CEPsh_DV/exprMatrix.tsv.gz",
+      "md5": "a6ec9f97a3",
+      "size": 13161232,
+      "mtime": "2025-11-17 19:45:43"
+    },
+    "desc": {
+      "fname": "desc.conf",
+      "md5": "8a66ac9470",
+      "size": 2451,
+      "mtime": "2025-11-17 19:35:38"
+    },
+    "conf": {
+      "fname": "/lustre/fs4/brc/scratch/wwang05/ShahamLab/simin_cellbrowser/CEPsh_DV_rev_a/cellbrowser.conf",
+      "md5": "31f05252a6",
+      "size": 452,
+      "mtime": "2025-11-17 19:45:02"
+    }
+  },
+  "sampleCount": 10440,
+  "matrixWasFiltered": false,
+  "metaFields": [
+    {
+      "name": "Cell",
+      "label": "Cell",
+      "type": "uniqueString",
+      "maxSize": 34,
+      "diffValCount": 10440,
+      "md5": "5d117a50ee"
+    },
+    {
+      "name": "seurat_clusters",
+      "label": "seurat_clusters",
+      "type": "enum",
+      "valCounts": [
+        [
+          " 0",
+          1236
+        ],
+        [
+          " 1",
+          1060
+        ],
+        [
+          " 2",
+          913
+        ],
+        [
+          " 3",
+          853
+        ],
+        [
+          " 4",
+          753
+        ],
+        [
+          " 5",
+          706
+        ],
+        [
+          " 6",
+          639
+        ],
+        [
+          " 7",
+          605
+        ],
+        [
+          " 8",
+          579
+        ],
+        [
+          " 9",
+          524
+        ],
+        [
+          "10",
+          482
+        ],
+        [
+          "11",
+          413
+        ],
+        [
+          "12",
+          411
+        ],
+        [
+          "13",
+          377
+        ],
+        [
+          "14",
+          366
+        ],
+        [
+          "15",
+          295
+        ],
+        [
+          "16",
+          206
+        ],
+        [
+          "17",
+          22
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 18,
+      "md5": "00bbb3627c"
+    },
+    {
+      "name": "BestTime_Yanai",
+      "label": "BestTime_Yanai",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 35,
+      "md5": "d073daac05"
+    },
+    {
+      "name": "BestTime_Yanai_bin",
+      "label": "BestTime_Yanai_bin",
+      "type": "enum",
+      "valCounts": [
+        [
+          "[270, 330)",
+          3907
+        ],
+        [
+          "[210, 270)",
+          3187
+        ],
+        [
+          "[330, 390)",
+          1469
+        ],
+        [
+          "[390, 450)",
+          801
+        ],
+        [
+          "[450, 510)",
+          575
+        ],
+        [
+          "[150, 210)",
+          457
+        ],
+        [
+          ">=510",
+          42
+        ],
+        [
+          "<150",
+          2
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 8,
+      "md5": "796dd3abda"
+    },
+    {
+      "name": "Cell_types2",
+      "label": "Cell_types2",
+      "type": "enum",
+      "valCounts": [
+        [
+          "ABpxpaaapa",
+          3937
+        ],
+        [
+          "ABarpaaaap",
+          1940
+        ],
+        [
+          "ABarpaaapa",
+          1064
+        ],
+        [
+          "CEPshD",
+          641
+        ],
+        [
+          "ABarpaaaa",
+          555
+        ],
+        [
+          "CEPshV",
+          514
+        ],
+        [
+          "URAV",
+          486
+        ],
+        [
+          "OLQshD_early",
+          448
+        ],
+        [
+          "Converged_CEPsh",
+          366
+        ],
+        [
+          "OLQshD_late",
+          281
+        ],
+        [
+          "ABarpaaap",
+          208
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 11,
+      "md5": "9a2d125645"
+    },
+    {
+      "name": "sample",
+      "label": "sample",
+      "type": "enum",
+      "valCounts": [
+        [
+          "D 240 min",
+          2367
+        ],
+        [
+          "D 420 min",
+          1675
+        ],
+        [
+          "D 330 min",
+          1455
+        ],
+        [
+          "V 330 min rep1",
+          1035
+        ],
+        [
+          "V 420 min",
+          1023
+        ],
+        [
+          "V 270 min rep2",
+          965
+        ],
+        [
+          "V 330 min rep2",
+          919
+        ],
+        [
+          "V 240 min",
+          726
+        ],
+        [
+          "V 270 min rep1",
+          275
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 9,
+      "md5": "d8443131d4"
+    }
+  ],
+  "matrixArrType": "Uint32",
+  "labelField": "seurat_clusters",
+  "coords": [
+    {
+      "name": "coords_0",
+      "shortLabel": "UMAP",
+      "md5": "419c154a48",
+      "minX": -8.57007387464164,
+      "maxX": 9.63176747972848,
+      "minY": -10.4656671778704,
+      "maxY": 11.8558030827498,
+      "type": "Float32",
+      "textFname": "UMAP.coords.tsv.gz",
+      "labelMd5": "d41d8cd98f"
+    }
+  ],
+  "hasFiles": [
+    "datasetDesc"
+  ],
+  "topMarkers": {
+    "0": [
+      "2xTY-EGFP-3xFLAG",
+      "ces-2",
+      "Y50E8A.5",
+      "cav-1",
+      "his-64"
+    ],
+    "1": [
+      "Y51H4A.1",
+      "ins-2",
+      "C02B10.3",
+      "sptf-1",
+      "2xTY-EGFP-3xFLAG"
+    ],
+    "2": [
+      "mls-2",
+      "C34E7.4",
+      "ZK643.2",
+      "cht-1",
+      "F31D5.6"
+    ],
+    "3": [
+      "2xTY-EGFP-3xFLAG",
+      "cav-1",
+      "sptf-1",
+      "cutl-9",
+      "ncam-1"
+    ],
+    "4": [
+      "rig-6",
+      "ins-2",
+      "sptf-1",
+      "2xTY-EGFP-3xFLAG",
+      "lron-11"
+    ],
+    "5": [
+      "Y116F11A.6",
+      "prdx-2",
+      "cpg-20",
+      "cutl-3",
+      "ptr-22"
+    ],
+    "6": [
+      "Y116F11A.6",
+      "zmp-5",
+      "mls-2",
+      "prdx-2",
+      "C05B5.4"
+    ],
+    "7": [
+      "lim-7",
+      "zig-8",
+      "wrk-1",
+      "irx-1",
+      "lin-24"
+    ],
+    "8": [
+      "gpx-5",
+      "dpy-10",
+      "inx-12",
+      "hbl-1",
+      "nsy-4"
+    ],
+    "9": [
+      "F26H9.5",
+      "clec-196",
+      "ref-2",
+      "lin-12",
+      "rnst-2"
+    ],
+    "10": [
+      "unc-86",
+      "egl-46",
+      "agr-1",
+      "syd-9",
+      "cfi-1"
+    ],
+    "11": [
+      "hmg-6",
+      "unc-129",
+      "C16B8.4",
+      "C23H4.6",
+      "tir-1"
+    ],
+    "12": [
+      "wrk-1",
+      "dpy-10",
+      "gpx-5",
+      "inx-12",
+      "WBGene00023209"
+    ],
+    "13": [
+      "nduo-6",
+      "clec-266",
+      "cht-1",
+      "igcm-3",
+      "atp-6"
+    ],
+    "14": [
+      "lgc-27",
+      "lpr-4",
+      "mab-21",
+      "F32A5.4",
+      "F59F5.7"
+    ],
+    "15": [
+      "lpr-4",
+      "lgc-27",
+      "F59F5.7",
+      "lpr-1",
+      "hhat-1"
+    ],
+    "16": [
+      "zip-7",
+      "B0391.14",
+      "ddr-1",
+      "dhs-5",
+      "fbxa-139"
+    ],
+    "17": [
+      "let-7",
+      "C05E11.7",
+      "nhr-2",
+      "F41D3.11",
+      "grl-13"
+    ]
+  },
+  "markers": [
+    {
+      "name": "markers_0",
+      "shortLabel": "markers of clusters"
+    }
+  ],
+  "quickGenes": [
+    [
+      "2xTY-EGFP-3xFLAG",
+      "0, 3"
+    ],
+    [
+      "Y51H4A.1",
+      "1"
+    ],
+    [
+      "mls-2",
+      "2"
+    ],
+    [
+      "rig-6",
+      "4"
+    ],
+    [
+      "Y116F11A.6",
+      "5, 6"
+    ],
+    [
+      "lim-7",
+      "7"
+    ],
+    [
+      "gpx-5",
+      "8"
+    ],
+    [
+      "F26H9.5",
+      "9"
+    ],
+    [
+      "unc-86",
+      "10"
+    ],
+    [
+      "hmg-6",
+      "11"
+    ],
+    [
+      "wrk-1",
+      "12"
+    ],
+    [
+      "nduo-6",
+      "13"
+    ],
+    [
+      "lgc-27",
+      "14"
+    ],
+    [
+      "lpr-4",
+      "15"
+    ],
+    [
+      "zip-7",
+      "16"
+    ],
+    [
+      "let-7",
+      "17"
+    ]
+  ],
+  "shortLabel": "CEPsh_DV",
+  "radius": 5,
+  "alpha": 0.3,
+  "priority": 10,
+  "tags": [
+    "10X"
+  ],
+  "clusterField": "seurat_clusters",
+  "showLabels": true,
+  "name": "CEPsh_DV",
+  "firstBuildTime": "2025-11-17T14:46:19.767602",
+  "lastBuildTime": "2025-11-17T14:46:19.767623",
+  "md5": "25b10064a4"
+}

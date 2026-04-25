@@ -1,0 +1,6 @@
+{
+  "title": "Ventral dataset",
+  "abstract": "Fully annotated ventral dataset (the ABpxpaa lineage)",
+  "coordFiles": ["UMAP_on_CEPshV.coords.tsv.gz"],
+  "matrixFile": "exprMatrix.tsv.gz"
+}

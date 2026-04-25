@@ -1,0 +1,45 @@
+{
+  "name": "sample",
+  "priority": 10,
+  "tags": [
+    "10X"
+  ],
+  "shortLabel": "CEPshV",
+  "exprMatrix": "CEPshV.counts.tsv.gz",
+  "geneIdType": "auto",
+  "meta": "CEPshV.metadata.tsv",
+  "enumFields": [
+    "seurat_clusters"
+  ],
+  "coords": [
+    {
+      "file": "/lustre/fs4/brc/scratch/wwang05/ShahamLab/simin_cellbrowser/test/CEPshV.umap.coords.tsv",
+      "flipY": false,
+      "shortLabel": "UMAP on CEPshV"
+    }
+  ],
+  "clusterField": "seurat_clusters",
+  "labelField": "seurat_clusters",
+  "body_parts": [
+    ""
+  ],
+  "organisms": [
+    ""
+  ],
+  "diseases": [
+    ""
+  ],
+  "projects": [
+    ""
+  ],
+  "markers": [
+    {
+      "file": "/lustre/fs4/brc/scratch/wwang05/ShahamLab/simin_cellbrowser/test/CEPshV.markergenes.tsv",
+      "shortLabel": "Cluster-specific markers"
+    }
+  ],
+  "showLabels": true,
+  "unit": "read count/UMI",
+  "matrixType": "auto",
+  "inDir": ""
+}

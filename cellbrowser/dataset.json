@@ -1,0 +1,23 @@
+{
+  "name": "",
+  "shortLabel": "CEPsh Transcriptome Browser",
+  "abstract": "Single-cell RNA sequencing data from Liu et al. 2025.",
+  "datasets": [
+    {
+      "shortLabel": "CEPsh glia (Dorsal/Ventral)",
+      "name": "CEPsh_DV",
+      "md5": "25b10064a4",
+      "tags": ["10X"],
+      "hasFiles": ["datasetDesc"],
+      "sampleCount": 10440
+    },
+    {
+      "shortLabel": "Ventral dataset",
+      "name": "Ventral",
+      "md5": "03acf109bb",
+      "tags": ["10X"],
+      "hasFiles": ["datasetDesc"],
+      "sampleCount": 39964
+    }
+  ]
+}
